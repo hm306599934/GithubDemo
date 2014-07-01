@@ -21,6 +21,7 @@
 		EAC878601962BC06007675D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC878421962BC05007675D9 /* UIKit.framework */; };
 		EAC878681962BC06007675D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAC878661962BC06007675D9 /* InfoPlist.strings */; };
 		EAC8786A1962BC06007675D9 /* GithubDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC878691962BC06007675D9 /* GithubDemoTests.m */; };
+		EAC878751962BD23007675D9 /* HMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC878741962BD23007675D9 /* HMTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EAC878651962BC06007675D9 /* GithubDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GithubDemoTests-Info.plist"; sourceTree = "<group>"; };
 		EAC878671962BC06007675D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAC878691962BC06007675D9 /* GithubDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubDemoTests.m; sourceTree = "<group>"; };
+		EAC878731962BD23007675D9 /* HMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTableViewCell.h; sourceTree = "<group>"; };
+		EAC878741962BD23007675D9 /* HMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		EAC878441962BC05007675D9 /* GithubDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EAC878731962BD23007675D9 /* HMTableViewCell.h */,
+				EAC878741962BD23007675D9 /* HMTableViewCell.m */,
 				EAC8784D1962BC05007675D9 /* HMAppDelegate.h */,
 				EAC8784E1962BC05007675D9 /* HMAppDelegate.m */,
 				EAC878501962BC05007675D9 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC878751962BD23007675D9 /* HMTableViewCell.m in Sources */,
 				EAC878551962BC05007675D9 /* HMViewController.m in Sources */,
 				EAC8784B1962BC05007675D9 /* main.m in Sources */,
 				EAC8784F1962BC05007675D9 /* HMAppDelegate.m in Sources */,
